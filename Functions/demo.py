@@ -39,6 +39,8 @@ def allSums(*args) :
         total = total + num
     print(total)
 
-# nums = (1,2,3,4,5,6)
+# nums = (1,2,3,4,5,6) #tuple unpacking * - unpack tuple
 nums = [1,2,3,4,5,6]
 allSums(*nums) #if pass without star it will consider all the tuple or list as a one num ex ((1,2,3,4,5,6),)
+
+#**- unpack dictionary
